@@ -1,0 +1,57 @@
+.nav-section {
+  font-family: "Shantell Sans", cursive;
+  background: white;
+  margin-top: 32.82px;
+  font-style: italic;
+}
+
+.nav-container {
+  width: 1151.35px;
+  height: 360px;
+  margin: 0 auto;
+}
+
+.logo-link {
+  display: inline-block;
+}
+
+.logo {
+  display: block;
+  width: 360px;
+  height: 360px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav {
+  margin-top: 27.18px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 45px;
+}
+
+.nav__link {
+  margin-right: 60px;
+  margin-bottom: 25px;
+  display: inline-block;
+  font-weight: 400;
+  height: 25px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+li:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+  color: black;
+  opacity: 0.5;
+}
